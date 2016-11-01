@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Shift 6 LTD"
+  },
+  "description": "Appsee React Native Bridge",
+  "homepage": "http://www.appsee.com",
+  "keywords": [
+    "react",
+    "native",
+    "appsee",
+    "analytics",
+    "tracking",
+    "native",
+    "bridge",
+    "events",
+    "screen",
+    "hits",
+    "ux",
+    "crash",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "Copyright (c) 2013, Shift 6 LTD. Appsee\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n    * Redistributions of source code must retain the above copyright\n      notice, this list of conditions and the following disclaimer.\n    * Neither the name of Shift 6 Ltd, Appsee nor the names of its\n      contributors may be used to endorse or promote products derived from this\n      software without specific prior written permission.\nTHE SERVICE, THE SITE, THE APPSEE SDK, THE REPORTS AND/OR THE CONTENT ARE ALL PROVIDED ON AN \"AS IS\" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, RELIABILITY AND/OR QUALITY OF SERVICE, WARRANTIES OF TITLE OR NON-INFRINGEMENT OR IMPLIED WARRANTIES OF USE, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE.",
+  "main": "index.js",
+  "name": "react-native-appsee",
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz.tbd"
+      ]
+    },
+    "android": {
+      "packageInstance": "new AppseeReactPackage()"
+    }
+  },
+  "version": "2.3.1"
+}
